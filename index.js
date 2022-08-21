@@ -324,7 +324,7 @@ client.on('ready', () => {
 client.initialize();
 
 
-res.send()
+// res.send()
 
 });
 
