@@ -13,7 +13,7 @@ app.get('/',function(req, res) {
 
 (async () => {
 	const browser = await puppeteer.launch({
-        headless: true,
+        headless: false,
         args: ['--no-sandbox','--disable-setuid-sandbox']
     });
 	await browser.close();
